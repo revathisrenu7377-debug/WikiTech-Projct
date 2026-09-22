@@ -1,0 +1,49 @@
+.wikisense-highlight {
+  background: linear-gradient(120deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
+  border-radius: 2px;
+  padding: 0 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.wikisense-highlight:hover {
+  background: linear-gradient(120deg, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5));
+}
+
+.wikisense-citation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  background: rgba(102, 126, 234, 0.1);
+  border: 1px solid rgba(102, 126, 234, 0.3);
+  border-radius: 12px;
+  font-size: 11px;
+  color: #667eea;
+  margin-left: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.wikisense-citation-badge:hover {
+  background: rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
+}
+
+.wikisense-fact-check-verified {
+  border-left: 3px solid #10b981;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+.wikisense-fact-check-warning {
+  border-left: 3px solid #f59e0b;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+.wikisense-fact-check-error {
+  border-left: 3px solid #ef4444;
+  padding-left: 8px;
+  margin-left: 8px;
+}
